@@ -3,4 +3,12 @@
     <string name="text_button1">button1</string>
     <string name="text_button2">button2</string>
     <string name="text_button3">button3</string>
+    <string name="text_button4">button4</string>
+    <string name="text_button5">button5</string>
+    <string name="text_button6">button6</string>
+    <string name="text_button7">button7</string>
+    <string name="text_button8">button8</string>
+    <string name="text_button9">button9</string>
+    <string name="text_button10">button10</string>
+    <string name="main_title">Android practice</string>
 </resources>
