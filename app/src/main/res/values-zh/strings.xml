@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">你好</string>
-    <string name="text_button1">按钮1</string>
+    <string name="text_button1">约束布局</string>
     <string name="text_button2">按钮2</string>
     <string name="text_button3">按钮3</string>
     <string name="text_button4">按钮4</string>
@@ -11,4 +11,7 @@
     <string name="text_button9">按钮9</string>
     <string name="text_button10">按钮10</string>
     <string name="main_title">Android 练习</string>
+    <string name="constraint_activity_title">你好！</string>
+    <string name="sign_up_button_text">注册</string>
+    <string name="login_button_text">登录</string>
 </resources>
