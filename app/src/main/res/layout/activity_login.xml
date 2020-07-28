@@ -125,6 +125,7 @@
         android:textColor="@color/colorPrimary"
         android:layout_width="@dimen/input_width"
         android:background="@drawable/text_button_background"
+        android:textAllCaps="false"
         android:layout_height="50dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
