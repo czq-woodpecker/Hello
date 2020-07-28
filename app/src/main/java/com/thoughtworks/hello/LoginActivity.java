@@ -21,7 +21,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public void hideStatusBar() {
         View decorView = getWindow().getDecorView();
-        decorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_FULLSCREEN);
+        decorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
     }
 
 }
