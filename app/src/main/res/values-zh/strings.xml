@@ -14,4 +14,8 @@
     <string name="constraint_activity_title">你好！</string>
     <string name="sign_up_button_text">注册</string>
     <string name="login_button_text">登录</string>
+    <string name="username_input_text_hint">用户名</string>
+    <string name="password_input_text_hint">密码</string>
+    <string name="remember_me_checkbox_text">记住我</string>
+    <string name="forgot_password">忘记密码？</string>
 </resources>

@@ -13,4 +13,8 @@
         <item name="android:windowActionBar">false</item>
     </style>
 
+    <style name="BaseInputTextStyle">
+        <item name="android:textSize">@dimen/input_text_size</item>
+        <item name="android:textColorHint">@color/inputTextHintColor</item>
+    </style>
 </resources>

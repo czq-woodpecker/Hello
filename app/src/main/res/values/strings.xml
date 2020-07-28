@@ -14,4 +14,8 @@
     <string name="constraint_activity_title">Hello!</string>
     <string name="sign_up_button_text">Sign up</string>
     <string name="login_button_text">Login</string>
+    <string name="username_input_text_hint">Username</string>
+    <string name="password_input_text_hint">Password</string>
+    <string name="remember_me_checkbox_text">Remember me</string>
+    <string name="forgot_password">Forgot password?</string>
 </resources>
