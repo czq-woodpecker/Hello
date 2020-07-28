@@ -73,6 +73,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/login_button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/account_tools_layout"
@@ -80,8 +81,50 @@
         android:layout_width="@dimen/input_width"
         android:text="@string/login_button_text"
         android:textColor="@color/white"
-        android:background="@drawable/button_background_rounded_corners"
+        android:background="@drawable/primary_button_background"
         android:textAllCaps="false"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/or_connect_with_text_view"
+        android:text="@string/or_connect_with"
+        android:textColor="#b2b2b2"
+        android:textSize="@dimen/input_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_button"
+        android:paddingTop="26.5dp"
+        android:paddingBottom="29.5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/or_connect_with_text_view"
+        android:layout_width="@dimen/input_width"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/fb"
+            android:layout_width="120dp"
+            android:layout_height="40dp" />
+
+        <ImageView
+            android:src="@drawable/tw"
+            android:layout_width="120dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+    <Button
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="44.5dp"
+        android:text="@string/sign_up_with_email"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="@dimen/input_width"
+        android:background="@drawable/text_button_background"
         android:layout_height="50dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

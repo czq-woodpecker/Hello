@@ -18,4 +18,6 @@
     <string name="password_input_text_hint">Password</string>
     <string name="remember_me_checkbox_text">Remember me</string>
     <string name="forgot_password">Forgot password?</string>
+    <string name="or_connect_with">or_connect_with</string>
+    <string name="sign_up_with_email">Sign Up with E-mail</string>
 </resources>
